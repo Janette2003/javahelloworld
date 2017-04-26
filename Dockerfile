@@ -1,4 +1,4 @@
-FROM java:8
+FROM java:7
 COPY src /home/root/src
 WORKDIR /home/root
 RUN mkdir bin
